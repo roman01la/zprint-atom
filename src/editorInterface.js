@@ -1,3 +1,5 @@
+'use strict';
+
 const getBufferRange = editor => editor.getBuffer().getRange();
 
 const getCurrentScope = editor => editor.getGrammar().scopeName;

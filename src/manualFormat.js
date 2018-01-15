@@ -1,3 +1,5 @@
+'use strict';
+
 const { execOnBufferRange } = require('./execZPrint');
 const { getBufferRange, getCurrentFilePath } = require('./editorInterface');
 

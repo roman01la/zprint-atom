@@ -1,3 +1,5 @@
+'use strict';
+
 const getConfigOption = key => atom.config.get(`zprint-atom.${key}`);
 
 const setConfigOption = (key, value) =>

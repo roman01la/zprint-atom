@@ -1,3 +1,5 @@
+'use strict';
+
 const printFile = require('zprint-clj');
 
 const execOnBufferRange = ({ editor, bufferRange, setTextViaDiff, file }) => {
