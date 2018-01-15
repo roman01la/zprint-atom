@@ -8,7 +8,7 @@ Atom package to format Clojure, ClojureScript source code, EDN and s-expressions
 apm install zprint-atom
 ```
 
-Or go to _Settings → Install_ and search for prettier-atom.
+Or go to _Settings → Install_ and search for zprint-atom.
 
 Make sure to restart Atom after the package is installed.
 
