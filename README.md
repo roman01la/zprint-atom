@@ -18,3 +18,8 @@ There are two modes you can use:
 
 * Invoke manually using the **keyboard shortcut** <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>F</kbd>
 * [enabled by default] Automatically **format on save** (toogle in _Packages → ZPrint → Toggle Format on Save_)
+
+And two formatting modes:
+
+* Hang mode off [default]
+* Hang mode on — outputs better formatted code, but runs ~2x slower
