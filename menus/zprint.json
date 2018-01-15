@@ -1,0 +1,30 @@
+{
+  "context-menu": {
+    "atom-text-editor[data-grammar='source clojure']": [
+      {
+        "label": "Format With ZPrint",
+        "command": "zprint:format"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "ZPrint",
+          "submenu": [
+            {
+              "label": "Format",
+              "command": "zprint:format"
+            },
+            {
+              "label": "Toggle Format on Save",
+              "command": "zprint:toggle-format-on-save"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

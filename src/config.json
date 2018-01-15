@@ -1,0 +1,27 @@
+{
+  "formatOnSaveOptions": {
+    "title": "Format on Save",
+    "order": 1,
+    "type": "object",
+    "properties": {
+      "enabled": {
+        "title": "Format Files on Save",
+        "description": "Automatically format entire file when saving.",
+        "type": "boolean",
+        "default": true,
+        "order": 1
+      },
+      "clojureScopes": {
+        "title": "Clojure Scopes",
+        "description":
+          "Select which files containing Clojure should be formatted.<br>Use the command `Editor: Log Cursor Scope` to determine the scopes for a file.",
+        "type": "array",
+        "default": ["source.clojure"],
+        "items": {
+          "type": "string"
+        },
+        "order": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "zprint-atom",
+  "version": "0.1.0",
+  "description": "Atom plugin for zprint-clj",
+  "main": "./src/main.js",
+  "keywords": [
+    "clojure",
+    "pretty-printer"
+  ],
+  "author": "Roman Liutikov",
+  "license": "MIT",
+  "dependencies": {
+    "zprint-clj": "^0.1.0"
+  }
+}
