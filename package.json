@@ -1,6 +1,6 @@
 {
   "name": "zprint-atom",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "Atom plugin for zprint-clj",
   "main": "./src/main.js",
   "keywords": [
