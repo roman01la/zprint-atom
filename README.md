@@ -17,4 +17,4 @@ Make sure to restart Atom after the package is installed.
 There are two modes you can use:
 
 * Invoke manually using the **keyboard shortcut** <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>F</kbd>
-* Automatically **format on save** (requires enabling in _Packages → ZPrint → Toggle Format on Save_)
+* [enabled by default] Automatically **format on save** (toogle in _Packages → ZPrint → Toggle Format on Save_)
