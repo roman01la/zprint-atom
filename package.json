@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "description": "Atom plugin for zprint-clj",
   "main": "./src/main.js",
-  "keywords": [
-    "clojure",
-    "pretty-printer"
-  ],
+  "keywords": ["clojure", "pretty-printer"],
+  "repository": "https://github.com/roman01la/zprint-atom",
+  "homepage": "https://github.com/roman01la/zprint-atom",
+  "bugs": {
+    "url": "https://github.com/roman01la/zprint-atom/issues"
+  },
   "author": "Roman Liutikov",
   "license": "MIT",
   "dependencies": {
