@@ -15,6 +15,6 @@
   "author": "Roman Liutikov",
   "license": "MIT",
   "dependencies": {
-    "zprint-clj": "^0.1.0"
+    "zprint-clj": "^0.2.0"
   }
 }
