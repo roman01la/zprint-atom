@@ -6,7 +6,11 @@ const {
   getCurrentScope,
   getCurrentFilePath
 } = require('./editorInterface');
-const { getScopes, isFormatOnSaveEnabled } = require('./atomInterface');
+const {
+  getScopes,
+  isFormatOnSaveEnabled,
+  isHangEnabled
+} = require('./atomInterface');
 
 const hasFilePath = editor => !!getCurrentFilePath(editor);
 
@@ -21,7 +25,8 @@ const formatOnSave = editor => {
       editor,
       bufferRange: getBufferRange(editor),
       file: getCurrentFilePath(editor),
-      setTextViaDiff: true
+      setTextViaDiff: true,
+      isHangEnabled: isHangEnabled()
     });
   }
 };

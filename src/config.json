@@ -1,4 +1,19 @@
 {
+  "Configuration": {
+    "title": "Configuration",
+    "order": 2,
+    "type": "object",
+    "properties": {
+      "isHangEnabled": {
+        "title": "Enable Hang mode",
+        "description":
+          "Formatting mode that outputs better formatted code using various heuristics.<br>WARNING: Expect ~2x slowdown when enabled.",
+        "type": "boolean",
+        "default": false,
+        "order": 3
+      }
+    }
+  },
   "formatOnSaveOptions": {
     "title": "Format on Save",
     "order": 1,

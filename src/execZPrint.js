@@ -1,15 +1,21 @@
 'use strict';
 
-const printFile = require('zprint-clj');
+const format = require('zprint-clj');
 
-const execOnBufferRange = ({ editor, bufferRange, setTextViaDiff, file }) => {
+const execOnBufferRange = ({
+  editor,
+  bufferRange,
+  setTextViaDiff,
+  file,
+  isHangEnabled
+}) => {
   const cursorPositionPriorToFormat = editor.getCursorScreenPosition();
   const textToTransform = editor.getTextInBufferRange(bufferRange);
 
   let transformed;
 
   try {
-    transformed = printFile(textToTransform, file);
+    transformed = format(textToTransform, file, { isHangEnabled });
   } catch (err) {
     console.error(err);
     return;

@@ -13,4 +13,11 @@ const toggleFormatOnSave = () =>
 
 const getScopes = () => getConfigOption('formatOnSaveOptions.clojureScopes');
 
-module.exports = { toggleFormatOnSave, getScopes, isFormatOnSaveEnabled };
+const isHangEnabled = () => getConfigOption('Configuration.isHangEnabled');
+
+module.exports = {
+  toggleFormatOnSave,
+  getScopes,
+  isFormatOnSaveEnabled,
+  isHangEnabled
+};
